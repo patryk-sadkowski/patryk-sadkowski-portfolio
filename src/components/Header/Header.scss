@@ -1,0 +1,28 @@
+header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+
+  .header__brand {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__menu.main-nav {
+    display: flex;
+    padding: 10px 40px;
+
+    .main-nav__item {
+      padding: 0 10px;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
