@@ -1,0 +1,13 @@
+.homepage__hero.hero-section {
+  max-width: 63rem;
+  margin: 160px auto 140px;
+  padding: 0 30px;
+
+  @media screen and (max-width: 991px) {
+    margin-top: 80px;
+  }
+
+  h1 {
+    margin-bottom: 3.75rem;
+  }
+}

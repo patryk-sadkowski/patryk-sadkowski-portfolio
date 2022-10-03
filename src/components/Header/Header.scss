@@ -4,10 +4,15 @@ header.header {
   justify-content: space-between;
   width: 100%;
   padding: 30px;
+  font-size: 0.875rem;
 
   .header__brand {
     display: flex;
     flex-direction: column;
+
+    & > span {
+      font-size: 0.875rem;
+    }
   }
 
   .header__menu.main-nav {
@@ -19,6 +24,10 @@ header.header {
       margin: 0 10px;
       cursor: pointer;
       transition: all 0.2s ease-in-out;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
 
       &:hover {
         text-decoration: underline;
